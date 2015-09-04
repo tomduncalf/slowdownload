@@ -32,7 +32,7 @@ foreach($ingests as $ingest):
     $vidSrc = $scriptPathUrl
                 . '/slow.php?size='
                 . rand($minFileSize, $maxFileSize)
-                . '&speed='
+                . '&amp;speed='
                 . rand($minSpeed, $maxSpeed);
   } else {
     $vidSrc = $scriptPathUrl . '/404';
